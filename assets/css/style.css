@@ -1,0 +1,40 @@
+.mb-share-links a,.mb-share-links a:hover, .mb-share-links a:visited, .mb-share-links a:active{
+	color: inherit;
+	text-decoration: none;
+ }
+.mb-share-links{
+	list-style: none;
+	display: flex;
+}
+.mb-share-links a{
+	margin-right: 10px;
+	padding: 10px;
+	border-radius: 50%;	
+}
+.mb-share-email{
+	background-color: #5d5c5d
+}
+.mb-share-facebook{
+	background-color: #3b5998
+}
+.mb-share-twitter{
+	background-color: #1da1f2
+}
+.mb-share-instagram{
+	background-color: #e1306c
+}
+.mb-share-linkedin{
+	background-color: #0077b5
+}
+.mb-share-links a i{
+	font-size: 20px !important;
+	color: #fff
+}
+.mb-share-facebook i{
+    width: 16px;
+    margin-left: 4px;
+}
+.mb-share-links a:hover{
+	background-color: #00b2a9;
+	transition: all 1s
+}
