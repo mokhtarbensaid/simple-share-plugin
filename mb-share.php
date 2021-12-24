@@ -18,13 +18,13 @@ defined( 'ABSPATH' ) or die('You dont access directly' );
 if (!function_exists( 'mbs_share_styles' )) {
 add_action( 'wp_enqueue_scripts', 'mbs_share_styles' );
 	function mbs_share_styles(){
-	    wp_enqueue_style( 'mbs-fontawesome', 'https://pro.fontawesome.com/releases/v5.15.0/css/all.css');
-		wp_enqueue_style( 'mbs-style', plugins_url('assets/css/style.css', __FILE__));
+	    wp_enqueue_style( 'mbs-fontawesome', 'https://pro.fontawesome.com/releases/v5.15.0/css/all.css' );
+		wp_enqueue_style( 'mbs-style', plugins_url( 'assets/css/style.css', __FILE__ ) );
 	}
 }
 
 // Add submenu for show plugin settings
-if (!function_exists( 'mbs_share_menu' )) {
+if (!function_exists( 'mbs_share_menu' ) ) {
 
 	add_action( 'admin_menu', 'mbs_share_menu' );
 	function mbs_share_menu(){
@@ -33,14 +33,14 @@ if (!function_exists( 'mbs_share_menu' )) {
 }
 
 // display the button in the frontend
-if (!function_exists( 'mbs_share_buttons' )) {
+if (!function_exists( 'mbs_share_buttons' ) ) {
 
 	add_filter( 'the_content', 'mbs_share_buttons',0 );
 	function mbs_share_buttons( $content ){
 		if ( is_single() ) { 
 			global $post;
 		    $mbs_url = get_permalink( $post->ID );
-		    $mbs_url = esc_url( $url );
+		    $mbs_url = esc_url( $mbs_url );
 
 			$content .= '<ul class="mbs-links">';
 			if ( get_option( 'mbs_email_share') == 1 ) {
@@ -135,3 +135,5 @@ function mbs_display_linkedin_field(){
         <input type="checkbox" name="mbs_linkedin_share"  value="1" <?php checked( 1, get_option( 'mbs_linkedin_share' ), true ); ?> />
     <?php
 }
+
+
