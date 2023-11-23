@@ -1,0 +1,44 @@
+.mbs-links{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+	display: flex;
+}
+.mbs-links li:not(:last-child){
+	margin-right: 5px;
+}
+.mbs-links a,.mbs-links a:hover, .mbs-links a:visited, .mbs-links a:active{
+	color: inherit;
+	text-decoration: none;
+ }
+.mbs-links a{
+	display: block;
+	border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 43px;
+    text-align: center;   
+}
+.mbs-links a:hover{
+	background-color: #00b2a9;
+	transition: all 1s
+}
+.mbs-email{
+	background-color: #5d5c5d
+}
+.mbs-facebook{
+	background-color: #3b5998
+}
+.mbs-twitter{
+	background-color: #1da1f2
+}
+.mbs-pinterest{
+	background-color: #e60023
+}
+.mbs-linkedin{
+	background-color: #0077b5
+}
+.mbs-links a i{
+	font-size: 22px;
+	color: #ffffff
+}

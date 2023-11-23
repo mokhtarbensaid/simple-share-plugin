@@ -1,0 +1,140 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2023-11-23 10:26+0000\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/class-mb-share-admin.php:175
+msgid "Advance Settings"
+msgstr ""
+
+#: admin/partials/mb-share-admin-display.php:33
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:37
+msgid "After Content"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:46
+msgid "Buttons Color"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:62
+msgid "Buttons Custom Color"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:12
+msgid "Buttons Design"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:29
+msgid "Buttons Placement"
+msgstr ""
+
+#: admin/partials/settings-tabs/advanced-tab/add-advanced-settings.php:12
+msgid "Choose Post Types"
+msgstr ""
+
+#: admin/class-mb-share-admin.php:217
+msgid "control your share icons you want to show"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:55
+msgid "Custom Color"
+msgstr ""
+
+#: admin/partials/settings-tabs/advanced-tab/add-advanced-settings.php:24
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/class-mb-share-admin.php:220
+msgid "customize your share icons using these style settings"
+msgstr ""
+
+#: admin/partials/settings-tabs/general-tab/add-general-settings.php:10
+msgid "Facebook"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:39
+msgid "Floating Left"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:38
+msgid "Floating Right"
+msgstr ""
+
+#: admin/class-mb-share-admin.php:161
+#: admin/partials/mb-share-admin-display.php:31
+msgid "General Settings"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://mokhtarbensaid.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://mokhtarbensaid.com/"
+msgstr ""
+
+#: admin/partials/settings-tabs/general-tab/add-general-settings.php:34
+msgid "Linkedin"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-mb-share-admin.php:131
+msgid "MB Share"
+msgstr ""
+
+#: admin/class-mb-share-admin.php:130
+msgid "MB Share Options"
+msgstr ""
+
+#. Author of the plugin
+msgid "Mokhtar Bensaid"
+msgstr ""
+
+#: admin/class-mb-share-admin.php:223
+msgid "more advanced settings of your share icons"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:54
+msgid "Original Color"
+msgstr ""
+
+#: admin/partials/settings-tabs/general-tab/add-general-settings.php:46
+msgid "Pinterest"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:20
+msgid "Radio Buttons"
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:21
+msgid "Rounded Buttons"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Share your posts or custom posts to social media through MB share plugin."
+msgstr ""
+
+#: admin/partials/settings-tabs/style-tab/add-style-settings.php:22
+msgid "Square Buttons"
+msgstr ""
+
+#: admin/class-mb-share-admin.php:168
+#: admin/partials/mb-share-admin-display.php:32
+msgid "Style Settings"
+msgstr ""
+
+#: admin/partials/settings-tabs/general-tab/add-general-settings.php:22
+msgid "Twitter"
+msgstr ""
+
+#: admin/partials/settings-tabs/general-tab/add-general-settings.php:58
+msgid "Whatsapp"
+msgstr ""

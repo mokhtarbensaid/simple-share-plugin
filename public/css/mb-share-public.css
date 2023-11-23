@@ -1,0 +1,69 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.mbs-buttons{
+    margin-bottom: 30px !important;
+}
+.mbs-buttons.floating-right{
+    position: fixed;
+    bottom: 50%;
+    right: 20px;
+    transform: translateY(50%);
+    z-index: 99999;
+}
+.mbs-buttons.floating-left{
+    position: fixed;
+    bottom: 50%;
+    left: 20px;
+    transform: translateY(50%);
+    z-index: 99999;
+}
+.mbs-buttons.floating-left .icons,
+.mbs-buttons.floating-right .icons{
+    flex-direction: column;
+    row-gap: 5px;
+}
+.mbs-buttons .icons{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+.radio-button.floating-left .icons,
+.radio-button.floating-right .icons{
+    
+}
+.mbs-buttons .icons .icon i{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+}
+.mbs-buttons.radio-button i{
+	border-radius: 50%;
+}
+.mbs-buttons.rounded-button i{
+	border-radius: 5px;
+}
+.mbs-buttons.square-button i{
+	border-radius: 0;
+}
+.mbs-buttons .icons .icon .fa-facebook-f{
+	background-color: #1877f2;
+}
+.mbs-buttons .icons .icon .fa-x-twitter{
+	background-color: #14171a;
+}
+.mbs-buttons .icons .icon .fa-linkedin-in{
+	background-color: #0a66c2;
+}
+.mbs-buttons .icons .icon .fa-pinterest{
+	background-color: #e60023;
+}
+.mbs-buttons .icons .icon .fa-whatsapp{
+	background-color: #075e54;
+}
